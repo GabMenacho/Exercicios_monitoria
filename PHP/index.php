@@ -1,27 +1,26 @@
-tela de login 
-cadastro do administrador
-cadastro produto/ serviço / usuário
-listagem produto / serviço / usuário
-
 <!DOCTYPE html>
 <html lang="PT-BR">
 <head>
     <meta charset = "UTF-8">
     <meta name "viewport" content="width = device-width, inicial scale=1.0">
-    <title> Documento </title>
+    
+    <link rel="stylesheet" type="text/css" href="../CSS/estilo.css">
+
+    <title> Login </title>
 </head>
 <body>
     <div class="container-login">
         <form>
-            <div>
+            <div class="frupo-form">
                 <label for="email">E-mail: </label>
-                <input type="email" name="email" id="email">
+                <input class="input-texto" type="email" name="email" id="email">
             </div>
 
-            <div>
+            <div class="grupo-form">
                 <label for="senha">Senha: </label>
-                <input type="password" name="senha" id="senha">
+                <input class="input-texto" type="password" name="senha" id="senha">
             </div>
+            <input type="submit" value="Entrar">
 
         </form>
     </div>
