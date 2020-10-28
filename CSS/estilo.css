@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(250, 161, 161);
+    color: white;
+    margin: 45px;
+}
+
+.container-login {
+    width: 218px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+label {
+    font-size: 10pt;
+}
+
+.input-texto {
+    width: 100%;
+    heigth: 25px;
+    margin-top: 10px;
+}
+
+.grupo-form {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
